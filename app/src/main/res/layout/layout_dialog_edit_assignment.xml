@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:background="@color/white">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Title"
+            android:background="@color/purple_700"
+            android:padding="12dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:id="@+id/edt_edit_assignment_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Title Name"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btn_cancel_a"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cancel"
+                android:layout_marginRight="10dp"
+                />
+            <Button
+                android:id="@+id/btn_update_assignment_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Update"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

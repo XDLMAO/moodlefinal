@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="General">
+
+        <menu >
+            <item  android:id="@+id/nav_course"
+                android:title="Course"
+                android:icon="@drawable/ic_menu_book_24"/>
+            <item
+                android:id="@+id/nav_assignment"
+                android:title="Assignment"
+                android:icon="@drawable/ic_assignment_24"
+                />
+            <item  android:id="@+id/nav_notification"
+                android:title="Upload Material"
+                android:icon="@drawable/ic_file_upload_24"/>
+        </menu>
+    </item>
+    <item android:title="@string/nav_account">
+        <menu >
+            <item  android:id="@+id/nav_my_profile"
+                android:title="@string/nav_my_profile"
+                android:icon="@drawable/ic_profile_24"/>
+            <item  android:id="@+id/nav_change_password"
+                android:title="@string/nav_change_password"
+                android:icon="@drawable/ic__lock_24"/>
+            <item  android:id="@+id/nav_log_out"
+                android:title="@string/nav_log_out"
+                android:icon="@drawable/ic_logout_24"/>
+        </menu>
+    </item>
+</menu>

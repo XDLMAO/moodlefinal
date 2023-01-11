@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "901934555229",
+    "project_id": "moodleclient-324bf",
+    "storage_bucket": "moodleclient-324bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901934555229:android:4b79e3dfde3b5fbf5e6db4",
+        "android_client_info": {
+          "package_name": "com.example.moodleclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901934555229-5cdcv4eaqg58d9hobnn29s15piqj02o8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moodleclient",
+            "certificate_hash": "6217dea0d55f1d8f7967a7f7250ac4f5ce097a01"
+          }
+        },
+        {
+          "client_id": "901934555229-4nq07ussoliddc1s4oplde3knq6m1dl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7hY9sJHa_cdATvj9nRM3t010YIe76tZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901934555229-4nq07ussoliddc1s4oplde3knq6m1dl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
